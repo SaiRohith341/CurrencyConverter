@@ -36,7 +36,7 @@ document.querySelector(".btn").addEventListener("click", async (evt) => {
   let fromcurr = document.querySelector(".from select").value.toLowerCase();
   let tocurr = document.querySelector(".to select").value.toLowerCase();
 
-  const date = "2024-06-01"; // You can also make this dynamic
+  const date = "2025-06-03"; // You can also make this dynamic
   const URL = `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@${date}/v1/currencies/${fromcurr}.json`;
 
   try {
